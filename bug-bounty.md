@@ -1,6 +1,6 @@
 No technology is perfect, and Ripio believes that working with skilled security researchers across the globe is crucial in identifying weaknesses in any technology. If you believe you've found a security issue in our product or service, we encourage you to notify us. We welcome working with you to resolve the issue promptly, as long as it falls in scope and is not one of the types of vulnerability listed as out of scope below.
 
-# Program Rules
+# Vulnerability Report Rules
 * Please provide detailed reports with reproducible steps. If the report is not detailed enough to reproduce the issue, the issue will not be eligible for a reward.
 * Submit one vulnerability per report, unless you need to chain vulnerabilities to provide impact.
 * When duplicates occur, we only award the first report that was received (provided that it can be fully reproduced).
@@ -8,12 +8,22 @@ No technology is perfect, and Ripio believes that working with skilled security 
 * Social engineering (e.g. phishing, vishing, smishing) is prohibited.
 * Make a good faith effort to avoid privacy violations, destruction of data, and interruption or degradation of our service. Only interact with accounts you own or with explicit permission of the account holder.
 
+# Scope
+| Identifier | Severity | 
+| ------------- | ------------- |
+| https://www.ripio.com/app/ | Critical |
+| https://www.ripio.com/api/ | Critical |
+| https://exchange.ripio.com/ | High |
+| https://github.com/ripio/rcn-network | High |
+| https://play.google.com/store/apps/details?id=com.ripio.android | Critical |
+| https://itunes.apple.com/us/app/ripio/id1221006761 | Critical |
+
 # Disclosure Policy
 * Let us know as soon as possible upon discovery of a potential security issue, and we'll make every effort to quickly resolve the issue.
 * Provide us a reasonable amount of time to resolve the issue before any disclosure to the public or a third-party.
 
 # Rewards
-Ripio may provide rewards to eligible reporters of qualifying vulnerabilities. Our minimum reward is $100 USD. The bounty table for this program outlines the usual minimum rewards based on the assessed CVSS score for in-scope properties (see section on Scope). We reserve the right to reward vulnerabilities based on impact. Clarity and high technical skills in your report can give you an extra reward.
+Ripio may provide rewards to eligible reporters of qualifying vulnerabilities. The bounty table for the reports outlines the usual minimum rewards based on the assessed CVSS score for in-scope properties (see section on Scope above). We reserve the right to reward vulnerabilities based on impact. Clarity and high technical skills in your report can give you an extra reward.
 
 # Qualifying Vulnerabilities
 Examples of vulnerabilities Ripio is interested in receiving:
@@ -31,14 +41,13 @@ Examples of vulnerabilities Ripio is interested in receiving:
 * Security misconfigurations with clear impact.
 * Server Side Request Forgery.
 * Remote File Inclusion.
-* Unvalidated Redirects and Forwards
+* Unvalidated Redirects and Forwards.
 
 
 # Restrictions
 * Massive automatic scanning is not allowed. Please do creative testing.
-* If you significantly degrade our service, you risk a program ban.
-* No DoS - Our cloud providers prohibit this activity.
-* Participation in this program is prohibited for internal employees-
+* If you significantly degrade our service, you risk a ban from our platforms.
+* No DoS/DDoS.
 
 # Non-Qualifying Vulnerabilities
 When reporting vulnerabilities, please consider (1) attack scenario / exploitability, and (2) security impact of the bug. The following issues are considered out of scope:
