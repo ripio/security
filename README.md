@@ -1,12 +1,21 @@
-#Security
-How Ripio Approaches Security
-
+# 🔐 Security
 At Ripio, security is a core part of how we build and operate. We follow industry standards and best practices to protect our users and their assets.
-For full details on our compliance standards and security practices, visit our Security page: https://www.ripio.com/es/seguridad
+---
 
-#Bug Bounty Program
+## 📋 Standards & Compliance
+For full details on our security practices and the standards we comply with, visit our security page:
+🔗 [ripio.com/es/seguridad](https://www.ripio.com/es/seguridad)
+
+---
+
+## 🐛 Bug Bounty Program
+
 We believe in the power of the security community. If you've found a vulnerability, we want to hear from you.
-We partner with HackerOne to manage responsible disclosure. Submit your findings through our program:
-👉 hackerone.com/ripio
+We partner with **HackerOne** for responsible disclosure — in-scope reports are rewarded.
+👉 [hackerone.com/ripio](https://hackerone.com/ripio)
 
-Please follow responsible disclosure guidelines and avoid accessing or modifying user data during your research.
+### Ground rules
+- Follow responsible disclosure guidelines
+- Do not access, modify, or delete user data during research
+- Do not disclose findings publicly before they are resolved
+- Act
