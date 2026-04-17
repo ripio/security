@@ -10,9 +10,9 @@ our security page:
 
 🔗 [ripio.com/es/seguridad](https://www.ripio.com/es/seguridad)
 
-### Ripio Business (B2B)
+### Ripio Certifications
 Our B2B platform is **SOC 2** certified, meeting rigorous standards for security,
-availability, and confidentiality.
+availability, and confidentiality. Other certifications are comming in the near feature, stay tunned.
 
 ---
 
@@ -31,5 +31,4 @@ We partner with **HackerOne** for responsible disclosure — in-scope reports ar
 
 ---
 
-> For urgent security concerns, please use the HackerOne program above rather than
-> opening a public issue.
+For urgent security concerns, please use the HackerOne program above rather than opening a public issue.
